@@ -50,5 +50,14 @@
                           	         &trans &kp LALT &trans &kp LGUI &kp LSHFT &kp LCTRL
                         >;
                 };
+
+                NAV {
+                        bindings = <
+   &trans &trans    &trans    &trans   &trans    &trans    &trans   &trans   &trans &trans    &trans &none
+   &trans &kp LCTRL &kp LALT  &kp LGUI &kp LSHFT &kp PRCNT &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &none
+   &trans &kp PG_DN &kp PG_UP &kp HOME &kp END   &trans    &trans   &trans   &trans &trans    &trans &none
+                    	     &kp LGUI &kp DEL &mt LCTRL TAB    &trans &trans  &trans
+                        >;
+                };
         };
 };
