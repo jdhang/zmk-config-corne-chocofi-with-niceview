@@ -13,6 +13,20 @@
 #define NAV_L 2
 #define NUM_L 3
 
+#define QUICK_TAP_MS 175
+#define TAP_TERM_MS 200
+
+&lt {  // layer-tap config
+    flavor = "balanced";
+    tapping-term-ms = <TAP_TERM_MS>;
+    quick-tap-ms = <QUICK_TAP_MS>;
+};
+
+&mt { // mod-tap config
+    flavor = "tap-preferred";
+    tapping-term-ms = <TAP_TERM_MS>;
+};
+
 / {
         macros {
                 arrow_fn: arrow_fn {
